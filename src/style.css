@@ -1,0 +1,475 @@
+@import url('https://fonts.cdnfonts.com/css/titania');
+
+*{
+margin: 0%;
+padding:0%;
+max-width: 1300px;
+}
+
+#titulo-logo{
+width: 10px;
+color: red;
+font-size: 0;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	background-color: #7DA8AF;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	font-family: 'Titania', sans-serif;
+animation-name: barra;
+animation-duration: 6s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes barra{
+	0%{
+		background-color: #7DA8AF;
+	}
+	25%{
+		background-color: #87b772
+	}
+	75%{
+		background-color: #6a8ac6;
+	}
+	100%{
+		background-color: #7DA8AF;
+	}
+}
+
+.div-nav li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 3%;
+}
+.nav-bar-ul{
+	margin-left: 250px;
+	display: inline;
+
+}
+
+.nav-bar-ul li {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.nav-bar-ul li, a {
+	text-decoration: none;
+	color: white;
+}
+
+.li-nav {
+	text-align: center;
+	margin-left: 40px;
+	color: #222221;
+}
+.li-nav:hover{
+	border-top: 1px solid #222221;
+	border-bottom: 1px solid #222221;
+}
+.li-nav:visited{
+color: violet;
+}
+.logo {
+float: left;
+width: 85px;
+margin-left: 15px;
+margin-top: 10px;
+transition: all 0.2s ease-out;
+}
+.logo:hover{
+	transform:scale(1.1);
+	transition: all 0.2s ease-in;
+}
+.h1-nav{
+	display: none;
+}
+.banner-bg{
+	padding-top: 90px;
+	height: 20px;
+	background-image: url("../imagenes/fondos/1.jpg");
+}
+.ecofriendly:hover{
+transform:scale(1.1);
+	transition: all 0.3s ease-in;
+}
+.verano1{
+	width: 200px;
+	margin-top: 20px;
+}
+.ecofriendly{
+	width: 650px;
+	transition: all 0.5s ease-out;
+}
+.publicidad{
+	margin-left: 8% ;
+	margin-right: 8%;
+}
+.nosotros h2{
+text-align: center;
+margin-top: 60px;
+margin-bottom: 15px;
+color:#004D34;
+font-size: 40px;
+font-family: 'Titania', sans-serif;	
+
+}
+.nosotros p{
+	margin-right:15% ;
+	margin-left: 15%;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	line-height: 1.8em;
+}
+.titulo-productos{
+	text-align: center;
+	padding: 20px;
+margin-top: 60px;
+color: #004D34;
+font-size: 40px;
+border-top: 1px dotted black;
+font-family: 'Titania', sans-serif;	
+}
+
+#recomendado{
+	text-align: center;
+	background-image: url(../imagenes/fondos/1.jpg);
+	margin-right: 75px;
+	margin-left: 75px;
+}
+.lentes1{
+	width: 145px;
+}
+.lentes1:hover{
+	transform:scale(1.1);
+	transition: all 0.3s ease-in;
+}
+figure{
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	display: inline-block;
+	background-color: white;
+}
+
+.titulo-Instructivo{
+	text-align: center;
+	width: 500px;
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 40px;
+	background-color: #7DA8AF;
+	border-radius: 40px;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+}
+
+
+.fondo-recicable{
+	width: 250px;
+	
+	
+}
+.img-fondo-recicable{
+	width: 300px;
+	border-radius: 100%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 20px;
+	background-image: url(../imagenes/fondos/1.jpg);
+	padding: 20px;
+	animation: reciclable 4s infinite alternate;
+	rotate:60deg;
+	z-index: auto;
+}
+
+@keyframes reciclable {
+    0% {
+    transform: rotate(0deg);
+    }
+    25% {
+		transform: rotate(90deg);
+    }
+    50% {
+    transfrom: rotate(180deg);
+    }
+    75% {
+		transform: rotate(270deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.lista-recicable{
+	width: 200px;
+	padding: 20px;
+	margin-right: 25px;
+	background-image: url(../imagenes/fondos/1.jpg);
+	float: right;
+}
+.div-reciclable{
+	background-color: #7DA8AF;
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 30px;
+}
+.titulo-reciclable{
+	text-align: center;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #222221;
+}
+.instructivo{
+	margin-top: 100px;
+	width: 550px;
+margin-left: 400px;
+border: 1px solid gray;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.div-secction-frecuentes{
+	width: 100%;
+	max-height: 300px;
+	margin-top: 120px;
+}
+
+.parrafo-reciclable{
+	text-align: center;
+	color:white
+}
+.suma{
+	width: 10px;
+	margin-left: 15px;
+}
+.titulo-Temario{
+	padding: 7px;
+	border: 1px solid #222221; 
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #e0e0de; 
+}
+.parrafo-Instructivo{
+	padding: 7px;
+	font-size: 17px;
+	display: none;
+}
+
+.titulo-Instructivo:hover{
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.titulo-Instructivos:hover .parrafo-Instructivo{
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+
+.divsugerencia{
+	width: 100%;
+	padding: 25px;
+	font-size: 20px;
+	background-image: url(../imagenes/fondos/1.jpg);
+	width: 500px;
+margin-left: 400px;
+margin-top: 30px;
+}
+.piedepagina{
+	width: 100%;
+	background-color: #453a30;
+	margin-top: 45%;
+}
+
+.icono-social{
+	width: 25px;
+	animation: icono 3s infinite
+
+}
+
+.icono-social:hover{
+	rotate:60deg;
+}
+
+@keyframes icono{
+    0% {
+	transform: rotate(0deg);
+    }
+    25% {
+		transform: rotate(90deg);
+    }
+    50% {
+    transfrom: rotate(180deg);
+    }
+    75% {
+		transform: rotate(270deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+.iconosredes{
+	display: inline-block;
+	margin-top: 10px;
+
+}
+.iconosredes li{
+	display: inline-block;
+	margin-left: 15px;
+}
+.anclaflecha{
+	position: fixed;
+}
+.icono-ancla{
+	width: 65px;    
+	transition: all 0 5;
+	padding: 1rem;
+	display: inline-block;
+	position: fixed;
+	bottom: 10px;
+	right: 1px;
+	padding-bottom: 50px;
+}
+.redes-sociales{
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 15px;
+	color: white;
+}
+
+.redes-sociales h2{
+font-size: 30px;
+
+}
+.footer-p{
+color: white;
+margin-top: 25px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+.posicion{
+	margin-top: 15px;
+	width: 500px;
+	margin-left: 400px;
+	background-image: url("../imagenes/fondos/1.jpg");
+	padding: 25px;
+}
+.titulo-contacto{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.boton{
+	margin-top: 20px;
+padding: 10px;
+background-color: white;
+
+}
+.direccion{
+	color: #222221;
+	font-size: 13px;
+}
+.posicion button:hover{
+	background-color: gray;
+	
+}
+
+.div-mapa{
+width: 100%;
+float:right
+}
+
+.contacto-mapa{
+border-radius: 2%;
+transition: all 0.2s ease-out;
+animation: mapain 1.2s ease;
+position:relative
+}
+
+.contacto-mapa:hover{
+	transform:scale(1.1);
+	transition: all 0.2s ease-in;
+}
+.section-contacto-mapa{
+float: right;
+margin: 60px;
+margin-top: 25px;
+}
+
+@keyframes mapain{
+	0% {
+		right: -800px;
+	}
+100% {
+	right: 0px;
+}
+}
+@keyframes mapaout{
+	0% {
+		right:0px;
+	}
+100% {
+	right: -800px;
+}
+}
+.productos-tienda{
+text-align: center;
+padding: 20px;
+margin-top: 60px;
+color: #004D34;
+font-size: 40px;
+border-top: 1px dotted #222221;
+}
+.lentes2{
+width: 200px;
+height: 150px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding: 5px;
+display: inline-block;
+background-color: white;
+}
+.lentes2:hover{
+	scale: 1.20;
+}
+
+.section-tienda{
+	text-align: center;
+	margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 30px;
+    box-shadow: 0 0.4rem 2rem rgb(0 0 0 / 40%);
+}
+
+h2{
+	font-family: 'Titania', sans-serif;	
+}
+
+.div-sugerencia-contacto{
+	width: 100%;
+    padding: 25px;
+	margin-left: 25%;
+    font-size: 20px;
+    background-image: url(../imagenes/fondos/1.jpg);
+    width: 500px;
+    margin-top: 30px;
+}
+.ubicacion{
+	width: 100%;
+    padding: 25px;
+	margin-left: 9%;
+    font-size: 20px;
+	width: 500px;
+    margin-top: 30px;
+}
+#contacto{
+float: left;
+}

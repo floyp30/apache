@@ -1,0 +1,7 @@
+Alumna: Florencia lombardi 
+Carrera: Diseño Multimedia
+Turno: Noche
+Año: 2022
+Comision: DMN1B
+Materia: Lógica de Programación I
+Profesora: Marcos Galban, Camila
